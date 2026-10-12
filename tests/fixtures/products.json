@@ -1,0 +1,56 @@
+[
+  {
+    "id": "p001",
+    "name": "Compact Wireless Headphones",
+    "description": "Bluetooth over-ear headphones with a foldable design.",
+    "category": "headphones",
+    "price": 19000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p002",
+    "name": "Everyday Wireless Headphones",
+    "description": "Bluetooth on-ear headphones with a built-in microphone.",
+    "category": "headphones",
+    "price": 20000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p003",
+    "name": "Studio Wired Headphones",
+    "description": "Over-ear headphones with a detachable audio cable.",
+    "category": "headphones",
+    "price": 21000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p004",
+    "name": "Mini Bluetooth Speaker",
+    "description": "Portable wireless speaker with a rechargeable battery.",
+    "category": "speakers",
+    "price": 15000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p005",
+    "name": "Desktop Speakers",
+    "description": "Pair of wired speakers for a computer desk.",
+    "category": "speakers",
+    "price": 20000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p006",
+    "name": "Large Bluetooth Speaker",
+    "description": "Portable wireless speaker with a carrying handle.",
+    "category": "speakers",
+    "price": 28000,
+    "currency": "KZT",
+    "in_stock": false
+  }
+]

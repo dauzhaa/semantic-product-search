@@ -1,0 +1,253 @@
+[
+  {
+    "id": "test01",
+    "query": "over-ear headphones with a detachable cable",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p003"
+    ],
+    "reason": "Direct feature search. p003 is the only product described with a detachable audio cable, and it is over-ear."
+  },
+  {
+    "id": "test02",
+    "query": "smart speaker with a voice assistant",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p012"
+    ],
+    "reason": "Direct feature search. p012 is the only product with a built-in voice assistant."
+  },
+  {
+    "id": "test03",
+    "query": "headphones with a boom microphone",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p009"
+    ],
+    "reason": "Direct feature search. p009 is the only product with a boom microphone (flip-up). p002 has a built-in microphone, but it is not described as a boom."
+  },
+  {
+    "id": "test04",
+    "query": "lavalier microphone",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p024",
+      "p025"
+    ],
+    "reason": "Direct product-type search. p024 is a clip-on lavalier microphone and p025 is a wireless lavalier kit; no other microphone is described as lavalier or clip-on."
+  },
+  {
+    "id": "test05",
+    "query": "something I can hold and sing into in front of an audience at a concert",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p027"
+    ],
+    "reason": "Paraphrase. p027 is a handheld microphone for live performances. p026 records vocals but is described for recording, not handheld live use; lavaliers clip onto clothing."
+  },
+  {
+    "id": "test06",
+    "query": "attachment for my DSLR to capture audio from whatever it is aimed at",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p028"
+    ],
+    "reason": "Paraphrase. p028 is a directional microphone that mounts on top of a camera. The lavaliers attach to clothing, not to the camera, and no other product documents camera mounting."
+  },
+  {
+    "id": "test07",
+    "query": "recording interviews with two guests on my phone, with mics attached to their shirts",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p025"
+    ],
+    "reason": "Paraphrase. p025 has two clip-on wireless microphones with a phone receiver. p024 clips onto clothing but is a single microphone with no documented phone connection."
+  },
+  {
+    "id": "test08",
+    "query": "I keep losing track of how much charge my earbuds have left",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p020"
+    ],
+    "reason": "Paraphrase. p020's charging case shows battery level. p016 also has a charging case, but no battery display is documented."
+  },
+  {
+    "id": "test09",
+    "query": "something to fill a backyard celebration with music and colored lights",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p014"
+    ],
+    "reason": "Paraphrase. p014 is a loud portable speaker with colorful LED lighting. p006 is a large portable speaker but has no documented lights."
+  },
+  {
+    "id": "test10",
+    "query": "headphones I can fold up small so they fit in my bag",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p001"
+    ],
+    "reason": "Paraphrase. p001 is the only product described with a foldable design."
+  },
+  {
+    "id": "test11",
+    "query": "wireless earbuds with a charging case",
+    "filters": {
+      "category": "earbuds",
+      "max_price": null,
+      "in_stock": true
+    },
+    "relevant_ids": [
+      "p016"
+    ],
+    "reason": "Earbuds with a charging case are p016 and p020. The in-stock filter excludes p020 (out of stock), leaving p016."
+  },
+  {
+    "id": "test12",
+    "query": "microphone for video calls",
+    "filters": {
+      "category": "microphones",
+      "max_price": 30000,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p023"
+    ],
+    "reason": "p023 (18,000) is documented for calls. p002 has a built-in microphone but the category filter excludes headphones. p029 is a gaming microphone with no documented call use."
+  },
+  {
+    "id": "test13",
+    "query": "portable bluetooth speaker",
+    "filters": {
+      "category": "speakers",
+      "max_price": null,
+      "in_stock": false
+    },
+    "relevant_ids": [
+      "p006"
+    ],
+    "reason": "Out-of-stock speakers are p006 and p013. p006 is a portable wireless speaker; p013 is a passive pair for a home stereo."
+  },
+  {
+    "id": "test14",
+    "query": "over-ear headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": 25000,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p001",
+      "p003",
+      "p009"
+    ],
+    "reason": "Over-ear products at or below 25,000 are p001 (19,000), p003 (21,000) and the p009 headset (24,000). p007 is over-ear but costs 35,000. p002 and p010 are on-ear; p008's ear style is not documented."
+  },
+  {
+    "id": "test15",
+    "query": "noise-cancelling headphones with a built-in microphone",
+    "filters": {
+      "category": "headphones",
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "Unsupported combination. p007 has noise cancellation but no microphone; p002 and p009 have microphones but no noise cancellation. All headphones remain eligible."
+  },
+  {
+    "id": "test16",
+    "query": "waterproof speaker with a carrying handle",
+    "filters": {
+      "category": "speakers",
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "Unsupported combination. p011 is waterproof but has no handle; p006 has a carrying handle but is not waterproof. All speakers remain eligible."
+  },
+  {
+    "id": "test17",
+    "query": "earbuds that pair over bluetooth",
+    "filters": {
+      "category": "earbuds",
+      "max_price": 5000,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "Only p015 (4,000) passes the price filter, and it is wired with a 3.5 mm jack. No Bluetooth earbuds cost 5,000 or less."
+  },
+  {
+    "id": "test18",
+    "query": "microphone that records directly onto a memory card",
+    "filters": {
+      "category": "microphones",
+      "max_price": null,
+      "in_stock": true
+    },
+    "relevant_ids": [],
+    "reason": "No microphone documents built-in storage or a memory card slot. In-stock microphones remain eligible."
+  },
+  {
+    "id": "test19",
+    "query": "cheap microphone for school presentations",
+    "filters": {
+      "category": "microphones",
+      "max_price": 5000,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "The cheapest microphone (p024) costs 7,000 KZT, so the filters leave no eligible products."
+  },
+  {
+    "id": "test20",
+    "query": "headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": 15000,
+      "in_stock": false
+    },
+    "relevant_ids": [],
+    "reason": "Out-of-stock headphones are p002 (20,000) and p009 (24,000); both exceed 15,000, so the filters leave no eligible products."
+  }
+]

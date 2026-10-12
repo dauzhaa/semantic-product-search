@@ -1,0 +1,272 @@
+[
+  {
+    "id": "p001",
+    "name": "Compact Wireless Headphones",
+    "description": "Bluetooth over-ear headphones with a foldable design.",
+    "category": "headphones",
+    "price": 19000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p002",
+    "name": "Everyday Wireless Headphones",
+    "description": "Bluetooth on-ear headphones with a built-in microphone.",
+    "category": "headphones",
+    "price": 20000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p003",
+    "name": "Studio Wired Headphones",
+    "description": "Over-ear headphones with a detachable audio cable.",
+    "category": "headphones",
+    "price": 21000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p004",
+    "name": "Mini Bluetooth Speaker",
+    "description": "Portable wireless speaker with a rechargeable battery.",
+    "category": "speakers",
+    "price": 15000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p005",
+    "name": "Desktop Speakers",
+    "description": "Pair of wired speakers for a computer desk.",
+    "category": "speakers",
+    "price": 20000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p006",
+    "name": "Large Bluetooth Speaker",
+    "description": "Portable wireless speaker with a carrying handle.",
+    "category": "speakers",
+    "price": 28000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p007",
+    "name": "Noise-Cancelling Headphones",
+    "description": "Over-ear wireless headphones with active noise cancellation.",
+    "category": "headphones",
+    "price": 35000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p008",
+    "name": "Kids Wired Headphones",
+    "description": "Lightweight headphones with volume limiting for children.",
+    "category": "headphones",
+    "price": 8000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p009",
+    "name": "Gaming Headset",
+    "description": "Wired over-ear headset with a flip-up boom microphone.",
+    "category": "headphones",
+    "price": 24000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p010",
+    "name": "Sport Wireless Headphones",
+    "description": "Sweat-resistant on-ear headphones with a secure fit.",
+    "category": "headphones",
+    "price": 17000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p011",
+    "name": "Waterproof Shower Speaker",
+    "description": "Small waterproof speaker with a suction cup mount.",
+    "category": "speakers",
+    "price": 9000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p012",
+    "name": "Smart Speaker",
+    "description": "Wi-Fi speaker with a built-in voice assistant.",
+    "category": "speakers",
+    "price": 32000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p013",
+    "name": "Bookshelf Speakers",
+    "description": "Pair of passive speakers for a home stereo system.",
+    "category": "speakers",
+    "price": 45000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p014",
+    "name": "Party Speaker with Lights",
+    "description": "Loud portable speaker with colorful LED lighting.",
+    "category": "speakers",
+    "price": 55000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p015",
+    "name": "Basic Wired Earbuds",
+    "description": "In-ear earbuds with a 3.5 mm audio jack.",
+    "category": "earbuds",
+    "price": 4000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p016",
+    "name": "True Wireless Earbuds",
+    "description": "Bluetooth earbuds with a pocket-sized charging case.",
+    "category": "earbuds",
+    "price": 16000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p017",
+    "name": "Noise-Cancelling Earbuds",
+    "description": "Wireless earbuds with active noise cancellation.",
+    "category": "earbuds",
+    "price": 30000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p018",
+    "name": "Sport Earbuds with Ear Hooks",
+    "description": "Wireless earbuds with hooks that stay in place during exercise.",
+    "category": "earbuds",
+    "price": 14000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p019",
+    "name": "Budget Wireless Earbuds",
+    "description": "Affordable Bluetooth earbuds for everyday listening.",
+    "category": "earbuds",
+    "price": 9000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p020",
+    "name": "Premium Wireless Earbuds",
+    "description": "Wireless earbuds with a charging case that shows battery level.",
+    "category": "earbuds",
+    "price": 25000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p021",
+    "name": "Neckband Wireless Earbuds",
+    "description": "Bluetooth earbuds connected by a flexible neckband.",
+    "category": "earbuds",
+    "price": 11000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p022",
+    "name": "USB-C Wired Earbuds",
+    "description": "In-ear earbuds with a USB-C connector for modern phones.",
+    "category": "earbuds",
+    "price": 6000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p023",
+    "name": "USB Desktop Microphone",
+    "description": "Plug-and-play microphone for calls and streaming.",
+    "category": "microphones",
+    "price": 18000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p024",
+    "name": "Clip-On Lavalier Microphone",
+    "description": "Small wired microphone that clips onto clothing.",
+    "category": "microphones",
+    "price": 7000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p025",
+    "name": "Wireless Lavalier Microphone Kit",
+    "description": "Two clip-on wireless microphones with a phone receiver.",
+    "category": "microphones",
+    "price": 26000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p026",
+    "name": "Studio Condenser Microphone",
+    "description": "Large-diaphragm microphone for recording vocals.",
+    "category": "microphones",
+    "price": 40000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p027",
+    "name": "Dynamic Vocal Microphone",
+    "description": "Durable handheld microphone for live performances.",
+    "category": "microphones",
+    "price": 22000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p028",
+    "name": "Shotgun Camera Microphone",
+    "description": "Directional microphone that mounts on top of a camera.",
+    "category": "microphones",
+    "price": 19000,
+    "currency": "KZT",
+    "in_stock": false
+  },
+  {
+    "id": "p029",
+    "name": "Gaming Microphone with Arm Stand",
+    "description": "USB microphone with an adjustable desk arm and pop filter.",
+    "category": "microphones",
+    "price": 29000,
+    "currency": "KZT",
+    "in_stock": true
+  },
+  {
+    "id": "p030",
+    "name": "Podcast Microphone Bundle",
+    "description": "Microphone, headphones and stand bundled for podcasting.",
+    "category": "microphones",
+    "price": 48000,
+    "currency": "KZT",
+    "in_stock": false
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "id": "dev01",
+    "query": "wireless earbuds",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": ["p016", "p017", "p018", "p019", "p020", "p021"],
+    "reason": "Direct keyword query. These earbuds are described as wireless or Bluetooth; p015 and p022 are wired."
+  },
+  {
+    "id": "dev02",
+    "query": "music while taking a shower",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": ["p011"],
+    "reason": "Paraphrase. Only p011 is described as waterproof and made for the shower; no other product mentions water resistance."
+  },
+  {
+    "id": "dev03",
+    "query": "wireless headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": 20000,
+      "in_stock": true
+    },
+    "relevant_ids": ["p001", "p010"],
+    "reason": "Both are wireless headphones in stock at or below 20,000 KZT. p002 is wireless at exactly 20,000 but out of stock; p007 is wireless but costs 35,000."
+  },
+  {
+    "id": "dev04",
+    "query": "desk lamp for reading",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "The catalog contains only audio products; nothing provides lighting."
+  },
+  {
+    "id": "dev05",
+    "query": "cheap earbuds",
+    "filters": {
+      "category": "earbuds",
+      "max_price": 3000,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "The cheapest earbuds (p015) cost 4,000 KZT, so the price filter excludes every product in the category."
+  },
+    {
+    "id": "dev06",
+    "query": "something so my son can listen to cartoons without hurting his ears from loud sound",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p008"
+    ],
+    "reason": "Paraphrased need. p008 is the only product described as limiting volume for children; the query shares none of its key words (kids, volume, limiting, headphones)."
+  },
+  {
+    "id": "dev07",
+    "query": "speaker that can also wirelessly charge my phone",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "Unsupported need within the audio domain. Several speakers are wireless or rechargeable, but no description mentions charging a phone."
+  },
+    {
+    "id": "dev08",
+    "query": "listening to music while jogging without it falling off my head or ears",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p010",
+      "p018"
+    ],
+    "reason": "Paraphrased need. p010 is sweat-resistant with a secure fit; p018 has hooks that stay in place during exercise. The query avoids 'sport', 'exercise', 'secure', 'fit' and 'hooks'."
+  },
+  {
+    "id": "dev09",
+    "query": "my bus ride to work is so loud I can't hear my music, I want to shut out the engine rumble",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p007",
+      "p017"
+    ],
+    "reason": "Paraphrased need. p007 and p017 are the only products with active noise cancellation, one headphones and one earbuds. The query avoids 'noise' and 'cancelling'; 'loud' matches only p014, a speaker, as a keyword distractor."
+  },
+    {
+    "id": "dev10",
+    "query": "waterproof noise-cancelling earbuds",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "Unsupported feature combination. p017 is noise-cancelling earbuds but is not described as waterproof; the only waterproof product, p011, is a speaker without noise cancellation. No product has both."
+  },
+    {
+    "id": "dev11",
+    "query": "portable speaker with a rechargeable battery",
+    "filters": {
+      "category": "speakers",
+      "max_price": 20000,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p004"
+    ],
+    "reason": "Speakers at or below 20,000 KZT are p004, p005 and p011. p004 is explicitly a portable speaker with a rechargeable battery and meets both filters. p005 is a wired desk pair with no battery documented. p011's description documents no rechargeable battery, so it is not labeled relevant; this does not mean it is known to be non-portable. Other speakers, including the portable p006 and p014, exceed 20,000 KZT and are excluded by the price filter."
+    },
+    {
+    "id": "dev12",
+    "query": "wireless headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": null,
+      "in_stock": false
+    },
+    "relevant_ids": [
+      "p002"
+    ],
+    "reason": "Out-of-stock headphones are p002 and p009. p002 is Bluetooth (wireless); p009 is a wired headset, so it is excluded."
+  },
+  {
+    "id": "dev13",
+    "query": "wireless headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": 20000,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p001",
+      "p002",
+      "p010"
+    ],
+    "reason": "Wireless headphones are p001, p002, p007 and p010. p002 costs exactly 20,000 and must be included by the inclusive limit; p007 costs 35,000 and is excluded."
+  },
+  {
+    "id": "dev14",
+    "query": "wireless headphones",
+    "filters": {
+      "category": "headphones",
+      "max_price": 19999,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p001",
+      "p010"
+    ],
+    "reason": "Paired with dev13. Lowering the limit to 19,999 excludes p002 (20,000); p001 (19,000) and p010 (17,000) remain."
+  },
+  {
+    "id": "dev15",
+    "query": "Studio Condenser Microphone",
+    "filters": {
+      "category": null,
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p026"
+    ],
+    "reason": "Exact catalog name of p026; product names are unique, so only p026 is relevant."
+  },
+  {
+    "id": "dev16",
+    "query": "a microphone for recording my voice at my computer",
+    "filters": {
+      "category": "microphones",
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p023",
+      "p029"
+    ],
+    "reason": "p023 is a USB desktop microphone for calls and streaming; p029 is a USB microphone with a desk arm and pop filter. Both connect by USB and are documented for desk use. p026 and p030 record vocals or podcasts but their descriptions do not document a computer connection; p024, p025, p027 and p028 are for clothing, phones, live stages or cameras."
+  },
+  {
+    "id": "dev17",
+    "query": "earbuds that connect with a cable",
+    "filters": {
+      "category": "earbuds",
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [
+      "p015",
+      "p022"
+    ],
+    "reason": "p015 has a 3.5 mm audio jack and p022 is USB-C wired. p021's neckband links the earbuds to each other, but it connects to devices over Bluetooth, so it is excluded; all other earbuds are wireless."
+  },
+    {
+    "id": "dev18",
+    "query": "a pair of speakers designed for use at a computer desk",
+    "filters": {
+        "category": null,
+        "max_price": null,
+        "in_stock": null
+    },
+    "relevant_ids": ["p005"],
+    "reason": "p005 is documented as a speaker pair for computer-desk use. Other products are not documented as meeting that combination: microphones capture sound, headphones and earbuds are personal listening devices, and the other speakers do not document the requested computer-desk use."
+    },
+  {
+    "id": "dev19",
+    "query": "a microphone with a built-in camera",
+    "filters": {
+      "category": "microphones",
+      "max_price": null,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "No microphone has a built-in camera. p028 is the only product that mentions a camera, but it mounts on top of one, which makes it a strong distractor."
+  },
+  {
+    "id": "dev20",
+    "query": "speaker",
+    "filters": {
+      "category": "speakers",
+      "max_price": 0,
+      "in_stock": null
+    },
+    "relevant_ids": [],
+    "reason": "The cheapest speaker (p011) costs 9,000 KZT, so a maximum price of 0 leaves no eligible products."
+  }
+]
